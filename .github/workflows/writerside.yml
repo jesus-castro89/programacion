@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside/poo'
+  INSTANCE: 'Writerside/prog'
   ARTIFACT: 'webHelpPROG2-all.zip'
   DOCKER_VERSION: '241.18775'
 
