@@ -7,4 +7,12 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
+    <toc-element toc-title="Algoritmia">
+        <toc-element topic="algoritmo.md"/>
+        <toc-element topic="algoritmo-basic.md"/>
+        <toc-element topic="diagrama.md"/>
+        <toc-element topic="desicion-algoritmo.md"/>
+        <toc-element topic="encaso.md"/>
+        <toc-element topic="loop.md"/>
+    </toc-element>
 </instance-profile>

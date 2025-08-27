@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="24024b4b">
+        <description>Created after removal of "¿Qué es la Algoritmia?" from Programación</description>
+        <accepts>introduccion-algoritmia.html</accepts>
+    </rule>
+    <rule id="f46a780">
+        <description>Created after removal of "El pseudocódigo" from Programación</description>
+        <accepts>pseudocodigo.html</accepts>
+    </rule>
+</rules>
