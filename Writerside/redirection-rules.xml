@@ -6,12 +6,13 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="24024b4b">
-        <description>Created after removal of "¿Qué es la Algoritmia?" from Programación</description>
-        <accepts>introduccion-algoritmia.html</accepts>
+    <rule id="5e4c99bb">
+        <description>Created after removal of "Métodos para solución de problemas con algoritmos" from Programación
+        </description>
+        <accepts>metodos-algoritmos.html</accepts>
     </rule>
-    <rule id="f46a780">
-        <description>Created after removal of "El pseudocódigo" from Programación</description>
-        <accepts>pseudocodigo.html</accepts>
+    <rule id="5701dbc1">
+        <description>Created after removal of "Fundamentos de Algoritmos" from Programación</description>
+        <accepts>fundamentos.html</accepts>
     </rule>
 </rules>
