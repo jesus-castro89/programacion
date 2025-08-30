@@ -3,7 +3,7 @@
 ## Descripción
 
 Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de barras de chocolate considerando que si
-son 1000 o más el costo es de $5.25; de lo contrario, el precio es de $8.75.
+son 1000 o más el costo es de **_\$ 5.25_**; de lo contrario, el precio es de **_\$ 8.75_**.
 
 ## Solución
 

@@ -15,4 +15,12 @@
         <description>Created after removal of "Fundamentos de Algoritmos" from Programación</description>
         <accepts>fundamentos.html</accepts>
     </rule>
+    <rule id="41ebd3c8">
+        <description>Created after removal of "Desarrollo Histórico de la Computadora" from Programación</description>
+        <accepts>background.html</accepts>
+    </rule>
+    <rule id="5cf1c9f0">
+        <description>Created after removal of "Componentes básicos de una computadora" from Programación</description>
+        <accepts>components.html</accepts>
+    </rule>
 </rules>

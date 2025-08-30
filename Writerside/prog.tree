@@ -7,8 +7,6 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
-    <toc-element topic="background.md"/>
-    <toc-element topic="components.md"/>
     <toc-element toc-title="Algoritmos">
         <toc-element topic="algoritmo.md"/>
         <toc-element topic="algoritmo-basic.md"/>
