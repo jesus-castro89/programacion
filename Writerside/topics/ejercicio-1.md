@@ -6,8 +6,8 @@ Lee atentamente cada uno de los siguientes problemas y realiza el pseudocódigo 
 para cada uno de ellos.
 
 1. La política de la compañía telefónica “chimefón” es: “Chismea + x -”. Cuando se realiza una llamada, el cobro es por
-   el tiempo que durará, de tal forma que los primeros cinco minutos cuestan **_$ 1.00 c/u_**, los siguientes tres, *
-   *_80¢_**c/u, los siguientes dos minutos, **_70¢ c/u_**, y a partir del décimo minuto, 50¢ c/u. Además, se carga un
+   el tiempo que durará, de tal forma que los primeros cinco minutos cuestan **_$ 1.00 c/u_**, los siguientes tres, 
+   _**80¢ c/u**_, los siguientes dos minutos, **_70¢ c/u_**, y a partir del décimo minuto, 50¢ c/u. Además, se carga un
    impuesto de **3 %**cuando es domingo, y si es día hábil, en turno matutino, **15 %**, y en turno vespertino,
    **10 %**. Realice un algoritmo para determinar cuánto debe pagar por cada concepto una persona que realiza una
    llamada.

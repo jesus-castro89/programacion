@@ -18,11 +18,13 @@
     </toc-element>
     <toc-element toc-title="Ejemplos">
         <toc-element topic="ejemplo-1.md"/>
+        <toc-element topic="ejemplo-2.md"/>
+        <toc-element topic="ejemplo-3.md"/>
+        <toc-element topic="ejemplo-4.md"/>
+        <toc-element topic="ejemplo-5.md"/>
     </toc-element>
     <toc-element toc-title="Ejercicios">
         <toc-element topic="ejercicio-1.md"/>
-    </toc-element>
-    <toc-element toc-title="Ejemplos">
-        <toc-element topic="desicion-ejemplo.md"/>
+        <toc-element topic="ejercicio-2.md"/>
     </toc-element>
 </instance-profile>
