@@ -99,3 +99,36 @@ N -> P
 P -> O
 O -> Q
 ```
+
+
+```d2
+vars: {
+  d2-config: {
+    layout-engine: dagre
+    sketch: true
+  }
+}
+A:"nCita <= 3"{shape: diamond}
+B:|" costoCita = 200 
+total = costoCita * nCita"|{shape: rectangle}
+C:"nCita <= 5"{shape: diamond}
+D:|" costoCita = 150
+total = (600) + (costoCita * (nCita - 3))"|{shape: rectangle}
+E:"nCita <= 8"{shape: diamond}
+F:|" costoCita = 100
+total = (900) + (costoCita * (nCita - 5))"|{shape: rectangle}
+G:|" costoCita = 50
+total = (1200) + (costoCita * (nCita - 8))"|{shape: rectangle}
+H:"Fin"{shape: oval}
+
+A -> B: Sí
+A -> C: No
+C -> D: Sí
+C -> E: No
+E -> F: Sí
+E -> G: No
+B -> H
+D -> H
+F -> H
+G -> H
+```
