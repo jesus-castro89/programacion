@@ -1,25 +1,41 @@
-# Ejercicio 3: Condiciones en Java
+# Ejercicio 3: Ejercicios linéales en Java
 
 ## Descripción
 
-Crear la implementación en Java de los siguientes ejercicios que involucren el uso de condiciones (if, if-else y
-else-if):
+Crear la implementación en Java de los siguientes ejercicios que involucren operaciones aritméticas y de asignación:
 
-1. **Número Par o Impar**: Escribir un programa que solicite al usuario un número entero y determine si es par o impar.
-    * Recuerda que un número es par si es divisible por 2 (es decir, el resto de la división por 2 es 0).
-2. **Mayor de Tres Números**: Escribir un programa que solicite al usuario tres números y determine cuál es el mayor.
-    * Considera el caso en que dos o más números pueden ser iguales.
-3. **Calificación Escolar**: Escribir un programa que solicite al usuario una calificación numérica (0-100) y determine
-   la calificación en letras según la siguiente escala:
-    * 90-100: A
-    * 80-89: B
-    * 70-79: C
-    * 60-69: D
-    * 0-59: F
+1. **Calculadora Simple**: Escribir un programa que solicite al usuario dos números y realice las siguientes
+   operaciones:
+    * Suma
+    * Resta
+    * Multiplicación
+    * División
+    * Módulo (resto de la división)
+      El programa debe mostrar los resultados de cada operación.
+    * Asegúrate de manejar el caso en que el segundo número sea cero para evitar errores de división por cero.
+    * Puedes utilizar operadores aritméticos como +, -, *, / y %.
+    * Utiliza operadores de asignación como =, +=, -=, *=, /= y %= para almacenar y actualizar los resultados.
+2. **Conversión de Temperatura**: Escribir un programa que convierta una temperatura dada en grados Celsius a Fahrenheit
+   y Kelvin.
+    * La fórmula para convertir Celsius a Fahrenheit es: F = (C * 9/5) + 32
+    * La fórmula para convertir Celsius a Kelvin es: K = C + 273.15
+    * El programa debe solicitar al usuario la temperatura en Celsius y mostrar las temperaturas convertidas en
+      Fahrenheit y Kelvin.
+3. **Cálculo del Área de un Círculo**: Escribir un programa que calcule el área de un círculo dado su radio.
+    * La fórmula para calcular el área de un círculo es: A = π * r^2, donde r es el radio del círculo y π (pi) es
+      aproximadamente 3.14159.
+    * Para este ejercicio, puedes usar la constante Math.PI en Java para obtener el valor de π. Para elevar al cuadrado,
+      puedes usar el operador de multiplicación o la función Math.pow().
+    * Para lo anterior deberás incluir la librería Math, agregando la línea `import java.lang.Math;` al inicio de tu
+      código.
+    * El programa debe solicitar al usuario el valor del radio y mostrar el área calculada del círculo.
+4. **Cálculo del Promedio**: Escribir un programa que solicite al usuario tres números y calcule su promedio.
+    * El promedio se calcula sumando los números y dividiendo la suma entre la cantidad de números (en este caso, 3).
+    * El programa debe mostrar el promedio calculado.
 
 ## Requisitos
 
-* Utilizar estructuras condicionales (if, if-else, else-if) para resolver los problemas.
+* Utilizar operadores aritméticos y de asignación para resolver los problemas.
 * Recibir la entrada del usuario a través de la consola.
 * Imprimir los resultados en la consola.
 
@@ -50,7 +66,7 @@ En un solo documento PDF, incluir:
 
 | Criterio                                   | Puntuación |
 |--------------------------------------------|------------|
-| Correcta implementación de las condiciones | 40%        |
+| Correcta implementación de las operaciones | 40%        |
 | Claridad y organización del código         | 20%        |
 | Uso adecuado de la entrada y salida        | 20%        |
 | Presentación del documento                 | 10%        |
