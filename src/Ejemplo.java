@@ -1,9 +1,16 @@
 public class Ejemplo {
 
     void main() {
-        // Mostramos el texto y leemos la entrada del usuario
-        String text = IO.readln("Ingresa un texto: ");
-        // Mostramos el texto ingresado
-        IO.println("El texto ingresado es: " + text);
+
+        int valor = Integer.parseInt(
+                IO.readln("Ingresa un valor entero"));
+        String coso;
+        if (valor > 0 && valor < 10) {
+            coso = "Valor pequeño positivo";
+        } else if (valor >= 10 && valor < 100) {
+            coso = "Valor mediano positivo";
+        } else if (valor >= 100) {
+            coso = "Valor grande positivo";
+        }
     }
 }
