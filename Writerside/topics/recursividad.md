@@ -33,3 +33,34 @@ public class Recursividad {
     }
 }
 ```
+
+## Ejemplos Comunes de Funciones Recursivas
+
+1. **Factorial**: Calcula el factorial de un número entero positivo.
+2. **Fibonacci**: Calcula el n-ésimo número en la secuencia de Fibonacci.
+3. **Búsqueda Binaria**: Busca un elemento en una lista ordenada dividiendo repetidamente el rango de búsqueda a la
+   mitad.
+
+## Ventajas y Desventajas de la Recursividad
+
+### Ventajas
+
+- Código más limpio y fácil de entender para problemas que tienen una naturaleza recursiva.
+- Puede simplificar la solución de problemas complejos.
+- Facilita la implementación de algoritmos que trabajan con estructuras de datos recursivas.
+
+### Desventajas
+
+- Puede ser menos eficiente en términos de uso de memoria y tiempo de ejecución debido a las llamadas de función
+  adicionales.
+- Riesgo de desbordamiento de pila si la recursión es demasiado profunda.
+- A veces, una solución iterativa puede ser más eficiente.
+
+## Consideraciones al Usar Recursividad
+
+- Asegúrate de definir un caso base claro para evitar recursiones infinitas.
+- Evalúa si la recursividad es la mejor solución para el problema en cuestión.
+- Considera el uso de técnicas como la memorización o la recursión de cola para optimizar el rendimiento en casos
+  específicos.
+- Prueba tus funciones recursivas con diferentes entradas para asegurarte de que funcionan correctamente en todos los
+  casos.
