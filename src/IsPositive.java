@@ -1,9 +1,7 @@
 public class IsPositive {
 
     void main() {
-        int number = Integer.parseInt(
-                IO.readln("Ingrese un número: ")
-        );
+        int number = Ejemplo.getNumber();
         if (number % 2 == 0) {
             IO.println("El número múltiplo de 2");
         } else if (number % 3 == 0) {

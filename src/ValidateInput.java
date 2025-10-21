@@ -16,7 +16,7 @@ public class ValidateInput {
             IO.println("Entrada inválida.");
             number = readPositiveInt();
         }
-        if (number < 1 || number > 100) {
+        if (number <= 0) {
             IO.println("Entrada inválida.");
             number = readPositiveInt();
         }

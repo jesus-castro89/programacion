@@ -41,6 +41,16 @@ public class Recursividad {
 3. **Búsqueda Binaria**: Busca un elemento en una lista ordenada dividiendo repetidamente el rango de búsqueda a la
    mitad.
 
+## Preguntas para aplicar Recursividad
+
+1. ¿El problema puede ser dividido en subproblemas más pequeños y similares?
+2. ¿Existe un caso base claro que detenga la recursión?
+3. ¿La solución recursiva es más sencilla o más eficiente que una solución iterativa?
+4. ¿Cómo manejarás los casos de entrada que podrían causar una recursión profunda o infinita?
+
+Si alguna de estas preguntas no tiene una respuesta afirmativa clara, es posible que la recursividad no sea la mejor
+solución para el problema en cuestión.
+
 ## Ventajas y Desventajas de la Recursividad
 
 ### Ventajas
