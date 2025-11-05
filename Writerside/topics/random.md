@@ -1,21 +1,16 @@
-# La librería `Random` de Java
+# La librería `Random`
 
-La librería `Random` en Java se utiliza para generar números aleatorios de manera sencilla y eficiente. Proporciona
-métodos para generar diferentes tipos de datos aleatorios, como enteros, flotantes y booleanos. A continuación, se
-describen algunos de los métodos más comunes de la clase `Random`.
+La librería `Random` en Java se utiliza para generar números aleatorios de manera sencilla y eficiente. A continuación,
+se presentan algunos de los métodos más comunes de la clase `Random`.
 
-| Método                           | Descripción                                                                            |
-|----------------------------------|----------------------------------------------------------------------------------------|   
-| `nextInt()`                      | Devuelve un número entero aleatorio.                                                   |
-| `nextInt(int bound)`             | Devuelve un número entero aleatorio entre 0 (inclusive) y `bound` (exclusivo).         |
-| `nextDouble()`                   | Devuelve un número de punto flotante aleatorio entre 0.0 y 1 (exclusivo).              |    
-| `nextFloat()`                    | Devuelve un número de punto flotante aleatorio entre 0.0 y 1 (exclusivo).              |
-| `nextBoolean()`                  | Devuelve un valor booleano aleatorio (true o false).                                   |
-| `nextLong()`                     | Devuelve un número largo aleatorio.                                                    |
-| `setSeed(long seed)`             | Establece la semilla para el generador de números aleatorios.                          |
-| `nextGaussian()`                 | Devuelve un valor aleatorio con distribución normal (media 0 y desviación estándar 1). |
-| `nextInt(int origin, int bound)` | Devuelve un número entero aleatorio entre `origin` (inclusive) y `bound` (exclusivo).  |
-
+| Método               | Descripción                                                                                  |
+|----------------------|----------------------------------------------------------------------------------------------|   
+| `nextInt()`          | Devuelve un número entero aleatorio.                                                         |
+| `nextInt(int bound)` | Devuelve un número entero aleatorio entre 0 (inclusive) y el valor especificado (exclusive). |
+| `nextDouble()`       | Devuelve un número de punto flotante aleatorio entre 0.0 y 1.0.                              |
+| `nextFloat()`        | Devuelve un número de punto flotante aleatorio entre 0.0f y 1.0f.                            |
+| `nextLong()`         | Devuelve un número largo aleatorio.                                                          |
+| `nextBoolean()`      | Devuelve un valor booleano aleatorio (true o false).                                         |
 
 ## Ejemplo de Uso
 
@@ -23,20 +18,29 @@ describen algunos de los métodos más comunes de la clase `Random`.
 import java.util.Random;
 
 public class RandomExample {
-    public static void main(String[] args) {
+    void main() {
         Random random = new Random();
 
         // Generar un número entero aleatorio
-        int randomInt = random.nextInt(100); // Entre 0 y 99
-        System.out.println("Número entero aleatorio: " + randomInt);
+        int randomInt = random.nextInt();
+        IO.println("Número entero aleatorio: " + randomInt);
+
+        // Generar un número entero aleatorio entre 0 y 99
+        int boundedInt = random.nextInt(100);
+        IO.println("Número entero aleatorio entre 0 y 99: " + boundedInt);
 
         // Generar un número de punto flotante aleatorio
-        double randomDouble = random.nextDouble(); // Entre 0.0 y 1.0
-        System.out.println("Número de punto flotante aleatorio: " + randomDouble);
+        double randomDouble = random.nextDouble();
+        IO.println("Número de punto flotante aleatorio: " + randomDouble);
 
         // Generar un valor booleano aleatorio
         boolean randomBoolean = random.nextBoolean();
-        System.out.println("Valor booleano aleatorio: " + randomBoolean);
+        IO.println("Valor booleano aleatorio: " + randomBoolean);
     }
 }
 ```
+
+## Conclusión
+
+La clase `Random` es una herramienta poderosa para generar números aleatorios en Java, lo que es útil en una variedad de
+aplicaciones, desde juegos hasta simulaciones y pruebas.
