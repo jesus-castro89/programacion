@@ -56,6 +56,7 @@
         <toc-element topic="random.md"/>
         <toc-element topic="funciones-string.md"/>
         <toc-element topic="libreria-propia.md"/>
+        <toc-element topic="joptionpane.md"/>
     </toc-element>
     <toc-element toc-title="Arreglos">
         <toc-element topic="arreglos.md"/>
