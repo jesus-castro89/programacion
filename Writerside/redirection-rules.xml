@@ -27,4 +27,9 @@
         <description>Created after removal of "Ejemplo 1: Algoritmo de Decisión" from Programación</description>
         <accepts>desicion-ejemplo.html</accepts>
     </rule>
+    <rule id="363ca1dc">
+        <description>Created after removal of "Ejemplo 14: Validación de Datos de Entrada en Java" from Programación
+        </description>
+        <accepts>ejemplo-14.html</accepts>
+    </rule>
 </rules>
