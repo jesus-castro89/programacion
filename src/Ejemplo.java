@@ -1,51 +1,30 @@
+import java.util.Arrays;
+
 public class Ejemplo {
-
-    public static void multiplyTable(int n) {
-
-        for (int i = 1; i <= 10; i++) {
-
-            IO.println(n + " x " + i + " = " + (n * i));
-        }
-    }
-
-    /**
-     * Solicita al usuario que ingrese un número entero y lo valida.
-     * Si la entrada no es válida, solicita nuevamente hasta obtener un número correcto.
-     * {@snippet lang = java:
-     * int number = Ejemplo.getNumber();}
-     * @return El número entero ingresado por el usuario.
-     */
-    public static int getNumber() {
-
-        String input = IO.readln("Ingrese un número entero: ");
-        if (input.matches("-?\\d+")) {
-            return Integer.parseInt(input);
-        } else {
-            IO.println("Entrada inválida. Por favor, ingrese un número entero.");
-            return getNumber();
-        }
-    }
-
-    public static double getReal() {
-
-        String input = IO.readln("Ingrese un número real: ");
-        if (input.matches("-?\\d+(\\.\\d+)?")) {
-            return Double.parseDouble(input);
-        } else {
-            IO.println("Entrada inválida. Por favor, ingrese un número real.");
-            // Llamada recursiva hasta obtener un número válido
-            return getReal();
-        }
-    }
-
-    public static int getRandom(int min, int max) {
-
-        return (int) (Math.random() * (max - min + 1)) + min;
-    }
 
     void main() {
 
-        int dice = (int) (Math.random() * 6) + 1;
-        IO.println("Número aleatorio entre 1 y 6: " + dice);
+        int[] numeros = {5, 10, 15, 15, 25};
+        int suma = Arrays.stream(numeros).sum();
+        IO.println("La suma de los números es: " + suma);
+        int promedio = suma / numeros.length;
+        IO.println("El promedio de los números es: " + promedio);
+        int mediana = numeros[numeros.length / 2];
+        IO.println("La mediana de los números es: " + mediana);
+        int[] foundModa;
+        for (int j : numeros) {
+            int count = 0;
+            for (int numero : numeros) {
+                if (numero == j) {
+                    count++;
+                }
+            }
+            if (count > 1) {
+                foundModa = new int[count];
+                Arrays.fill(foundModa, j);
+                IO.println("La moda de los números es: " + Arrays.toString(foundModa));
+                break;
+            }
+        }
     }
 }
